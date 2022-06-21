@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Project_1901010156</string>
+    //volume balok
+    <string name="width">Lebar</string>
+    <string name="height">Tinggi</string>
+    <string name="calculate">Hitung</string>
+    <string name="result">Hasil</string>
+    <string name="length">Panjang</string>
+    <string name="jari_jari_bola">Jari-Jari Bola</string>
+
+    //volume bola
+</resources>

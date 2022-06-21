@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.obi.project_1901010156" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project_1901010156" >
+        <activity
+            android:name=".Kreatifitas"
+            android:exported="false" />
+        <activity
+            android:name=".AppKalkulator"
+            android:exported="false" />
+        <activity
+            android:name=".HitungVolumeBola"
+            android:exported="false" />
+        <activity
+            android:name=".HitungVolumeBalok"
+            android:exported="false" />
+        <activity
+            android:name=".DataPembuatApp"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:label="Register" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="Login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
