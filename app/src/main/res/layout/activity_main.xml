@@ -62,15 +62,14 @@
         android:text="App Kalkulator"
         >
     </Button>
+
     <Button
         android:id="@+id/btnKreatifitas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="280dp"
-        android:text="Kreatifitas"
-        >
-    </Button>
+        android:text="Kreatifitas"></Button>
 
     <Button
         android:id="@+id/btnLogout"
