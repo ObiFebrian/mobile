@@ -7,6 +7,22 @@
     <string name="result">Hasil</string>
     <string name="length">Panjang</string>
     <string name="jari_jari_bola">Jari-Jari Bola</string>
+    <string name="title_activity_note">NoteActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="tittle">Tittle</string>
+    <string name="content">lorem ipsun dolor is amet, lorem ipsum dolor is amet</string>
+    <string name="edit_tittle">Edit Note</string>
+    <string name="edit_tittle1">EDIT</string>
+    <string name="addnote_tittle">Add Note</string>
+    <string name="save_tittle">SAVE</string>
+    <string name="tittle_validasi">Isi dulu</string>
 
     //volume bola
 </resources>
