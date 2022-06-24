@@ -18,6 +18,11 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="tittle">Tittle</string>
     <string name="content">lorem ipsun dolor is amet, lorem ipsum dolor is amet</string>
+    <string name="edit_tittle">Edit Note</string>
+    <string name="edit_tittle1">EDIT</string>
+    <string name="addnote_tittle">Add Note</string>
+    <string name="save_tittle">SAVE</string>
+    <string name="tittle_validasi">Isi dulu</string>
 
     //volume bola
 </resources>
