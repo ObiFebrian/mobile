@@ -1,12 +1,15 @@
 package com.obi.project_1901010156;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -18,13 +21,17 @@ import com.obi.project_1901010156.kotlin.NoteActivity;
 public class MainActivity extends AppCompatActivity {
     private FirebaseUser firebaseUser;
         private TextView textnama;
-        private Button btnLogout,btnDpa,btnHitunngvbalok,btnHitungvBola, btnkalkulator,btnkreatif;
+//        private Button btnLogout,btnDpa,btnHitunngvbalok,btnHitungvBola, btnkalkulator,btnkreatif;
+        private CardView btnDpa,btnHitunngvbalok,btnHitungvBola, btnkalkulator,btnkreatif;
+        private ImageView btnLogout;
 
     @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main_activity_ex);
+        getSupportActionBar().hide();
+
 
         textnama = findViewById(R.id.nama);
         btnLogout = findViewById(R.id.btnLogout);

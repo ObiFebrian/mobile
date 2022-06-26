@@ -40,7 +40,7 @@
             android:exported="false"
             android:label="Register" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:label="Login">
             <intent-filter>
@@ -50,7 +50,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
             android:exported="true" />
     </application>
 
