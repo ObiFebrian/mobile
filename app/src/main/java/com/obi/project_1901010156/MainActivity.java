@@ -15,8 +15,6 @@ import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.obi.project_1901010156.kotlin.MainActivity2;
-import com.obi.project_1901010156.kotlin.NoteActivity;
 
 public class MainActivity extends AppCompatActivity {
     private FirebaseUser firebaseUser;
