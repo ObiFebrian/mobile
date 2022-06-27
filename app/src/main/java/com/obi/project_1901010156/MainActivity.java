@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity((new Intent(getApplicationContext(), AppKalkulator.class)));
         });
         btnkreatif.setOnClickListener(view -> {
-            startActivity((new Intent(getApplicationContext(), MainActivity2.class)));
+            startActivity((new Intent(getApplicationContext(), MapsActivity.class)));
         });
         btnLogout.setOnClickListener(view -> {
             FirebaseAuth.getInstance().signOut();

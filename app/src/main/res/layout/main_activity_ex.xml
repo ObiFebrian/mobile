@@ -341,7 +341,7 @@
                     android:layout_marginBottom="-60dp"
                     android:adjustViewBounds="true"
                     android:scaleType="fitXY"
-                    android:src="@drawable/ic_undraw_mobile_ux_re_59hr" />
+                    android:src="@drawable/ic_undraw_my_location_re_r52x" />
 
                 <androidx.appcompat.widget.LinearLayoutCompat
                     android:layout_width="match_parent"
