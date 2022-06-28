@@ -23,6 +23,7 @@
     <string name="addnote_tittle">Add Note</string>
     <string name="save_tittle">SAVE</string>
     <string name="tittle_validasi">Isi dulu</string>
+    <string name="title_activity_maps">MapsActivity</string>
 
     //volume bola
 </resources>
